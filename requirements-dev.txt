@@ -1,0 +1,15 @@
+autoflake
+black[jupyter]
+flake8
+flake8-bugbear
+flake8-builtins
+flake8-comprehensions
+flake8-debugger
+flake8-eradicate
+flake8-logging-format
+isort
+nbqa[toolchain]
+nbstripout
+pep8-naming
+pre-commit
+tryceratops

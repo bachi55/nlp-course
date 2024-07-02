@@ -30,7 +30,7 @@ repos:
       - id: check-symlinks
       - id: check-merge-conflict
       - id: check-added-large-files
-        args: ["--maxkb=1024"]
+        args: ["--maxkb=2048"]
       - id: end-of-file-fixer
 
   # Hooks specific for python script-files (.py)

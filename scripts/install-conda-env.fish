@@ -2,6 +2,7 @@ set ENV_NAME "nlp-course"
 set PYTHON_VERSION 3.11
 
 conda update -q -y -n base -c defaults conda; and \
+# conda env remove -q -y -n $ENV_NAME; and \
 conda create -q -y -n $ENV_NAME python=$PYTHON_VERSION; and \
 conda activate $ENV_NAME; and \
 conda install -q -y -n $ENV_NAME jupyter pip; and \
